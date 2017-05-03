@@ -24,6 +24,8 @@
     <Content Include="wwwroot\images\GPU\rx570.jpg" />
     <Content Include="wwwroot\images\GTX1070.jpg" />
     <Content Include="wwwroot\images\GTX1080ti.jpg" />
+    <Content Include="wwwroot\images\Slide\1070SLIDE.jpg" />
+    <Content Include="wwwroot\images\Slide\R9SLIDE.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
