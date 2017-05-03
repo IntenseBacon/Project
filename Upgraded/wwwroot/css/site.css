@@ -1,6 +1,9 @@
-﻿body {
+﻿
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #ff6a00;
 }
 
 /* Wrapping element */
@@ -47,4 +50,25 @@ textarea {
     .carousel-caption {
         display: none;
     }
+}
+
+
+/*Mark Edits*/
+.col-md-12{
+    padding: 25px;
+}
+
+.col-md-3{
+    padding: 25px;
+}
+
+a.navbar-brand{
+   font-size:35px;
+}
+div.thumbnail {
+    box-shadow: 10px 10px 5px #424242;
+    background-color: #cccccc;
+}
+a.list-group-item, button.list-group-item {
+    background-color: #cccccc;
 }
