@@ -1,7 +1,55 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "Shopping";
 }
 <h2>@ViewData["Title"].</h2>
 <h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information. MArk</p>
+<p>Use this area to provide additional information.</p>
+
+@*GTX 970*@
+<div class="row">    
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="gpu-shop">
+            <div class="thumbnail">
+                <img src="~/images/GPU/GTX970.jpg" alt="GTX970" />
+                <div class="caption">
+                    <h4 class="pull-right">$379.99</h4>
+                    <h4><a href="#">EVGA GTX 970</a></h4>
+                    <ul>
+                        <li>4GB 256-Bit GDDR5</li>
+                        <li>Core Clock 1216 MHz</li>
+                        <li>Boost Clock 1367 MHz</li>
+                        <li>1 x Duallink DVI-I 1 x HDMI 2.0 3 x DisplayPort 1.2</li>
+                        <li>1664 Stream Processors</li>
+                    </ul>
+                    <form href="#">
+                        <input type="submit" value="Add to cart" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*GTX 1080ti*@
+<div class="row">
+    
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="gpu-shop">
+            <div class="thumbnail">
+                <img src="~/images/GPU/GTX1080ti.jpg" />
+                <div class="caption">
+                    <h4 class="pull-right">$1,039.99 </h4>
+                    <h4><a href="#">EVGA GTX 1080ti</a></h4>
+                    <ul>
+                        <li>Real Base Clock: 1556 MHz / Real Boost Clock: 1670 MHz; Memory Detail: 11264 MB GDDR5X</li>
+                        <li>1 x Dual Link DVI-D, 1 x HDMI 2.0b, 3 x DisplayPort 1.4</li>
+                    </ul>
+                    <form href="#">
+                        <input type="submit" value="View more details" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
