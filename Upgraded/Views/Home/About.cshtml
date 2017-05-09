@@ -2,53 +2,243 @@
     ViewData["Title"] = "Shopping";
 }
 <h2>@ViewData["Title"].</h2>
-<h3>@ViewData["Message"]</h3>
+@*<h3>@ViewData["Message"]</h3>*@
 
-<p>Use this area to provide additional information.</p>
+<p>Browse our most popular GPUs.</p>
 
 @*GTX 970*@
-<div class="row">    
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="gpu-shop">
-            <div class="thumbnail">
-                <img src="~/images/GPU/GTX970.jpg" alt="GTX970" />
-                <div class="caption">
-                    <h4 class="pull-right">$379.99</h4>
-                    <h4><a href="#">EVGA GTX 970</a></h4>
+<div class="row">
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/GTX970.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$379.99</h4>
+                <h4>
+                    <a href="#">EVGA GTX 970</a>
+                </h4>
+                <div class="col-sm-6">
                     <ul>
+                        <li>VR Ready</li>
+                        <li>DirectX 12 Ready</li>
+                        <li>GameStream to NVIDIA SHIELD</li>
                         <li>4GB 256-Bit GDDR5</li>
-                        <li>Core Clock 1216 MHz</li>
-                        <li>Boost Clock 1367 MHz</li>
-                        <li>1 x Duallink DVI-I 1 x HDMI 2.0 3 x DisplayPort 1.2</li>
-                        <li>1664 Stream Processors</li>
+                        <li>Core Clock 1165 MHz</li>
                     </ul>
-                    <form href="#">
-                        <input type="submit" value="Add to cart" />
-                    </form>
                 </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>Boost Clock 1317 MHz</li>
+                        <li>1 x Dual-link DVI-I</li>
+                        <li>1 x Dual-link DVI-D 1 x HDMI 2.0 1 x DisplayPort 1.2</li>
+                        <li>1664 CUDA Cores 1664 Stream Processors</li>
+                        <li>PCI Express 3.0 x16</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">3 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    4.0 stars
+                </p>
             </div>
         </div>
     </div>
 </div>
-
 @*GTX 1080ti*@
 <div class="row">
-    
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="gpu-shop">
-            <div class="thumbnail">
-                <img src="~/images/GPU/GTX1080ti.jpg" />
-                <div class="caption">
-                    <h4 class="pull-right">$1,039.99 </h4>
-                    <h4><a href="#">EVGA GTX 1080ti</a></h4>
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/GTX1080ti.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$1039.99</h4>
+                <h4>
+                    <a href="#">EVGA GTX 1080ti</a>
+                </h4>
+                <div class="col-sm-6">
                     <ul>
                         <li>Real Base Clock: 1556 MHz / Real Boost Clock: 1670 MHz; Memory Detail: 11264 MB GDDR5X</li>
                         <li>1 x Dual Link DVI-D, 1 x HDMI 2.0b, 3 x DisplayPort 1.4</li>
                     </ul>
-                    <form href="#">
-                        <input type="submit" value="View more details" />
-                    </form>
                 </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>EVGA iCX Technology - Asynchronous Fan Control</li>
+                        <li>9 additional temp sensors to monitor memory and PWN</li>
+                        <li>GPU / Memory / PWM Thermal Status Indicator LEDs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">4 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    4.0 stars
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+@*GTX 1070*@
+<div class="row">
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/GTX1070.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$525.99</h4>
+                <h4>
+                    <a href="#">GTX 1070</a>
+                </h4>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>8GB 256-Bit GDDR5</li>
+                        <li>Core Clock 1594 MHz</li>
+                        <li>Boost Clock 1784 MHz</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>1 x Dual-Link DVI-D 1 x HDMI 2.0b 3 x DisplayPort 1.4</li>
+                        <li>1920 CUDA Cores</li>
+                        <li>PCI Express 3.0</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">6 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    5.0 stars
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+@*RX 480*@
+<div class="row">
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/RX480.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$329.99</h4>
+                <h4>
+                    <a href="#">AMD Radeon RX 480</a>
+                </h4>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>4GB 256-Bit GDDR5</li>
+                        <li>Boost Clock 1316 MHz (OC Mode)</li>
+                        <li>1303 MHz (Gaming Mode)</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>1 x DL-DVI-D 2 x HDMI 2.0b 2 x DisplayPort 1.4</li>
+                        <li>2304 Stream Processors</li>
+                        <li>PCI Express 3.0 x16</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">7 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    3.0 stars
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+@*GTX 950*@
+<div class="row">
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/950.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$169.40</h4>
+                <h4>
+                    <a href="#">GALAX GTX 950</a>
+                </h4>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>2GB 128-Bit GDDR5</li>
+                        <li>Core Clock 1076 MHz</li>
+                        <li>Boost Clock 1253 MHz</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>1 x Dual-Link DVI-D 1 x HDMI 3 x DisplayPort</li>
+                        <li>768 CUDA Cores</li>
+                        <li>PCI Express 3.0 x16</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">2 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    4.0 stars
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+@*Radeon RX 460*@
+<div class="row">
+    <div class="col-md-10">
+        <div class="thumbnail">
+            <img class="img-responsive" src="~/images/GPU/460.jpg" />
+            <div class="caption-full">
+                <h4 class="pull-right">$329.99</h4>
+                <h4>
+                    <a href="#">Radeon RX 460</a>
+                </h4>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>4GB 128-Bit GDDR5</li>
+                        <li>Core Clock 1220 MHz</li>
+                        <li>PCI Express 3.0</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>896 Stream Processors</li>
+                        <li>7.0 GHz Memory clock</li>
+                        <li>DirectX 12</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">3 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                    3.0 stars
+                </p>
             </div>
         </div>
     </div>
