@@ -1,4 +1,7 @@
 ﻿
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
     padding-top: 50px;
@@ -54,26 +57,52 @@ textarea {
 
 
 /*Mark Edits*/
-.col-md-12{
+.col-md-12 {
     padding: 25px;
 }
 
-.col-md-3{
+.col-md-3 {
     padding: 25px;
 }
 
-a.navbar-brand{
-   font-size:35px;
+a.navbar-brand {
+    font-size: 35px;
 }
+
 div.thumbnail {
     box-shadow: 10px 10px 5px #424242;
     background-color: #cccccc;
 }
+
 a.list-group-item, button.list-group-item {
     background-color: #cccccc;
 }
 
+a {
+    color: darkcyan;
+}
 
+#contact {
+    color: white;
+    background-image: url(../images/Contacts/Woosh.jpg);
+}
 
+#suggested {
+    background-color: white;
+    border-bottom: 3px solid #ededed;
+}
 
-/*Zach Edits*/
+#Feed {
+    font-size: 25px;
+}
+
+#suggested p {
+    font-size: 16px;
+    padding-left: 2em;
+    color: firebrick;
+    opacity: 0.8;
+}
+
+#suggested #email {
+    color: forestgreen;
+}
