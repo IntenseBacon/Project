@@ -14,9 +14,13 @@
 
   <ItemGroup>
     <Content Include="wwwroot\images\460.jpg" />
+    <Content Include="wwwroot\images\50-Off-Discount-PNG.png" />
+    <Content Include="wwwroot\images\50-off.png" />
     <Content Include="wwwroot\images\950.jpg" />
     <Content Include="wwwroot\images\GPU\460.jpg" />
+    <Content Include="wwwroot\images\GPU\50offgpu.png" />
     <Content Include="wwwroot\images\GPU\950.jpg" />
+    <Content Include="wwwroot\images\GPU\gpusale970.png" />
     <Content Include="wwwroot\images\GPU\GTX1070.jpg" />
     <Content Include="wwwroot\images\GPU\GTX1080ti.jpg" />
     <Content Include="wwwroot\images\GPU\GTX970.jpg" />
